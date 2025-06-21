@@ -1,0 +1,1 @@
+Este repositório tem por finalidade registrar o avanço dos estudo da graduação em engenharia de software na matéria "Programação orientada a objetos em java" no módulo "Programação Paralela em Java: Threads".
