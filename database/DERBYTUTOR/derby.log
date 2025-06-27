@@ -62,3 +62,9 @@ ERROR XJ004: Banco de dados 'escola' não encontrado.
 ============= end nested exception, level (1) ===========
 Cleanup action completed
 Fri Jun 27 19:43:51 GMT-03:00 2025 Thread[#31,DRDAConnThread_3,5,main] (DATABASE = escola), (DRDAID = {21}), Banco de dados 'escola' não encontrado.
+----------------------------------------------------------------
+Fri Jun 27 20:23:30 GMT-03:00 2025: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Jun 27 20:23:30 GMT-03:00 2025:
+Encerrando a instância a816c00e-0197-ae47-4624-00002c7b0455
+----------------------------------------------------------------
