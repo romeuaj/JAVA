@@ -1,0 +1,14 @@
+Thu Jun 26 19:06:36 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+----------------------------------------------------------------
+Thu Jun 26 19:06:37 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0197-ae47-4624-00002c7b0455
+no diretório de banco de dados /home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/ESCOLA 
+
+java.vendor=Azul Systems, Inc.
+java.runtime.version=24.0.1+9
+user.dir=/home/okubo/db-derby-10.17.1.0-bin
+os.name=Linux
+os.arch=amd64
+os.version=6.11.0-26-generic
+derby.system.home=/home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
