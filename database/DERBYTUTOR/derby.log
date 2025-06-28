@@ -1,7 +1,7 @@
-Sat Jun 28 13:25:34 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+Sat Jun 28 14:46:50 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
 ----------------------------------------------------------------
-Sat Jun 28 13:25:35 GMT-03:00 2025:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0197-b75b-c6cd-00002c7b0455
+Sat Jun 28 14:46:50 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0197-b7a6-2ac8-00002c7b0455
 no diretório de banco de dados /home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/ESCOLA 
 
 java.vendor=Azul Systems, Inc.
@@ -12,9 +12,3 @@ os.arch=amd64
 os.version=6.11.0-26-generic
 derby.system.home=/home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
-----------------------------------------------------------------
-Sat Jun 28 13:34:52 GMT-03:00 2025: Shutting down Derby engine
-----------------------------------------------------------------
-Sat Jun 28 13:34:52 GMT-03:00 2025:
-Encerrando a instância a816c00e-0197-b75b-c6cd-00002c7b0455
-----------------------------------------------------------------
