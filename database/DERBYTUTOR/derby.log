@@ -12,3 +12,9 @@ os.arch=amd64
 os.version=6.11.0-26-generic
 derby.system.home=/home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jun 28 13:34:52 GMT-03:00 2025: Shutting down Derby engine
+----------------------------------------------------------------
+Sat Jun 28 13:34:52 GMT-03:00 2025:
+Encerrando a instância a816c00e-0197-b75b-c6cd-00002c7b0455
+----------------------------------------------------------------
