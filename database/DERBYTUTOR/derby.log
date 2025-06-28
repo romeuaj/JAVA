@@ -1,7 +1,7 @@
-Thu Jun 26 19:06:36 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+Sat Jun 28 13:25:34 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
 ----------------------------------------------------------------
-Thu Jun 26 19:06:37 GMT-03:00 2025:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0197-ae47-4624-00002c7b0455
+Sat Jun 28 13:25:35 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0197-b75b-c6cd-00002c7b0455
 no diretório de banco de dados /home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/ESCOLA 
 
 java.vendor=Azul Systems, Inc.
@@ -12,59 +12,3 @@ os.arch=amd64
 os.version=6.11.0-26-generic
 derby.system.home=/home/okubo/Documentos/estacio/semestre4/JAVA/database/DERBYTUTOR/
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
-Fri Jun 27 19:43:51 GMT-03:00 2025 Thread[#31,DRDAConnThread_3,5,main] Cleanup action starting
-java.sql.SQLException: Banco de dados 'escola' não encontrado.
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:115)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
-	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
-	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
-	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:629)
-	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
-	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:921)
-	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
-	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
-	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
-	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
-	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
-	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
-	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
-	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
-Caused by: ERROR XJ004: Banco de dados 'escola' não encontrado.
-	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
-	... 17 more
-============= begin nested exception, level (1) ===========
-ERROR XJ004: Banco de dados 'escola' não encontrado.
-	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
-	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
-	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
-	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:629)
-	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
-	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:921)
-	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
-	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
-	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
-	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
-	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
-	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
-	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
-	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
-============= end nested exception, level (1) ===========
-Cleanup action completed
-Fri Jun 27 19:43:51 GMT-03:00 2025 Thread[#31,DRDAConnThread_3,5,main] (DATABASE = escola), (DRDAID = {21}), Banco de dados 'escola' não encontrado.
-----------------------------------------------------------------
-Fri Jun 27 20:23:30 GMT-03:00 2025: Shutting down Derby engine
-----------------------------------------------------------------
-Fri Jun 27 20:23:30 GMT-03:00 2025:
-Encerrando a instância a816c00e-0197-ae47-4624-00002c7b0455
-----------------------------------------------------------------
